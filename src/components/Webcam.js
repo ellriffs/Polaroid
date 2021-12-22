@@ -16,13 +16,6 @@ const Camera = () => {
     setImgSrc(imageSrc);
   }, [WebcamRef, setImgSrc]);
 
-  const selfTimer = () => {
-    const imageSrc = WebcamRef.current.getScreenshot();
-    setTimeout(() => {
-      setImgSrc(imageSrc);
-    }, 2000);
-  };
-
   const clear = () => {
     setImgSrc(null);
   };
