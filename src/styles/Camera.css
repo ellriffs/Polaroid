@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Licorice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+
+.Webcam-container {
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  height: 27rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  border: 2px solid white;
+  border-radius: 5%;
+}
+
+.Webcam {
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5%;
+  height: 25rem;
+}
+.capture {
+  padding: 10px;
+  width: 32rem;
+  height: 2rem;
+}
+
+.clear {
+  width: 20%;
+  height: 2rem;
+}
+
+.screenshot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4%;
+  margin: 10px;
+  height: 32rem;
+  background-color: white;
+  border: 2px solid white;
+}
+
+.screenshot {
+  image-resolution: 300dpi;
+  image-rendering: optimizeQuality;
+  filter: grayscale() contrast(1.8) sepia(0.3);
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5%;
+  height: 25rem;
+  width: 32rem;
+}
+
+.date {
+  transform: rotate(-5deg);
+  font-family: "Licorice";
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 2rem;
+}
+
+.title {
+  font-family: "Fjalla One";
+  color: white;
+  position: absolute;
+  text-align: center;
+  margin-top: 40rem;
+  font-size: 5rem;
+}
+
+/* .santaHat {
+  position: absolute;
+  height: 8rem;
+  margin-top: 1.8rem;
+  margin-left: 3.9rem;
+} */
